@@ -1,8 +1,11 @@
-function App() {
+import { Fragment } from 'react';
+import Header from './components/Header';
+
+const App = () => {
   return (
-    <div>
-      App
-    </div>
+    <Fragment>
+      <Header />
+    </Fragment>
   );
 }
 
