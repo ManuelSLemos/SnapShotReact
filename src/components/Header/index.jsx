@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Form from './Form';
+import Menu from './Menu';
 
 import './style.css';
 
@@ -10,7 +11,7 @@ const Header = () => {
         <header>
             <h1 className="header-title"> SnapShot </h1>
             <Form />
-            { /* Menu */ }
+            <Menu />
         </header>
     )
 }
