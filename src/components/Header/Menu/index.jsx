@@ -7,6 +7,7 @@ const Menu = () => {
     return (
         <nav className="main-nav">
             <ul>
+                <li><NavLink to="/"> All </NavLink></li>
                 <li><NavLink to="/mountain"> Mountain </NavLink></li>
                 <li><NavLink to="/beach"> Beaches </NavLink></li>
                 <li><NavLink to="/bird"> Birds </NavLink></li>

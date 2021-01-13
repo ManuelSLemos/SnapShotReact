@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { Switch, Route } from "react-router-dom";
 
 import Header from './components/Header';
+import Gallery from './components/Gallery'
 import NotFound from './containers/NotFound';
 
 const App = () => {
@@ -9,10 +10,10 @@ const App = () => {
     <Fragment>
       <Header />
       <Switch>
-        <Route path="/mountain" exact component={NotFound} />
-        <Route path="/beach" exact component={NotFound} />
-        <Route path="/bird" exact component={NotFound} />
-        <Route path="/food" exact component={NotFound} />
+        <Route path="/mountain" exact component={Gallery} />
+        <Route path="/beach" exact component={Gallery} />
+        <Route path="/bird" exact component={Gallery} />
+        <Route path="/food" exact component={Gallery} />
       </Switch>
     </Fragment>
   );
